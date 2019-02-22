@@ -76,4 +76,18 @@ public class UserBean {
     public void setRoleId(Integer roleId) {
         this.roleId = roleId;
     }
+
+
+    @Override
+    public String toString() {
+        return "UserBean{" +
+                "userId=" + userId +
+                ", userName='" + userName + '\'' +
+                ", userPwd='" + userPwd + '\'' +
+                ", userSex=" + userSex +
+                ", userBirthday=" + userBirthday +
+                ", roleId=" + roleId +
+                ", rplename='" + rplename + '\'' +
+                '}';
+    }
 }
